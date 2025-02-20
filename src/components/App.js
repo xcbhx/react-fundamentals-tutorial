@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Title from './Title';
-import Footer from './Footer'
+import Title from './Title/Title';
+import Footer from './Footer/Footer'
 import { Outlet } from 'react-router-dom';
 
 
