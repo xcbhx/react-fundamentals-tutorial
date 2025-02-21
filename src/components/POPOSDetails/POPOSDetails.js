@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import data from "../../sfpopos-data.json";
+import data from "../../sfpopos-data.js";
 import "./POPOSDetails.css"
 
 function POPOSDetails(props) {
