@@ -6,6 +6,8 @@ import App from './components/App';
 import About from './components/About/About';
 import POPOSList from './components/POPOSList/POPOSList';
 import POPOSDetails from './components/POPOSDetails/POPOSDetails';
+import Contact from './components/Contact/Contact';
+import Privacy from './components/Privacy/Privacy';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,7 +19,9 @@ root.render(
           <Route path="/" element={<App />}>
             <Route index element={<POPOSList />} />
             <Route path="about" element={<About />} />
-			<Route path="/details/:id" element={<POPOSDetails />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="Privacy" element={<Privacy />} />
+			      <Route path="/details/:id" element={<POPOSDetails />} />
           </Route>
         </Routes>
       </Router>

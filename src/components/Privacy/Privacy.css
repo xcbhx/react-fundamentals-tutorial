@@ -1,0 +1,15 @@
+.privacy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  /* height: 100vh;  */
+  text-align: center; 
+  padding: 20px;
+}
+
+.privacy p {
+  max-width: 600px;
+  line-height: 2;
+  padding: 10px;
+}

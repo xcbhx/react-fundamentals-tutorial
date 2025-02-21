@@ -3,4 +3,25 @@
     font-weight: 500;
     font-size: large;
     background-color: rgb(28, 118, 214);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.Footer .footerLinks {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.Footer .footerLinks li {
+    display: inline;
+}
+
+.Footer .footerLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
